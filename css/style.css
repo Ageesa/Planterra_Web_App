@@ -1,0 +1,131 @@
+
+
+  .btn-primary{
+      background-color: darkgreen;
+  }
+  .modal-header{
+      background-color: darkgreen;
+      color: aliceblue;
+  }
+  .modal-footer btn a{
+      text-decoration: none;
+      color: aliceblue;
+  }
+  
+  .form1{
+           display: none;
+       }
+  .btn1 button{
+      display: none;
+  }
+  
+  
+    .jumbotron{
+             background-color:beige;
+              color: saddlebrown;
+              padding:10px !Important;
+           
+  }
+  .jumbotron button{
+      background-color: darkgreen;
+      border-radius: 10px;
+      display: inline-flex;
+    
+  }
+  .modal fade{
+      margin-top: 100px;
+  }
+  
+  .carousel slide{
+      display: block;
+      
+      
+  }
+  .container {
+      margin-top:10px !Important;
+           position: sticky;
+       position: -webkit-sticky; /* Safari */
+      
+  }
+  /* Modify the backgorund color */ 
+  
+  .navbar-custom { 
+      background-color: darkgreen; 
+  } 
+  .btn-outline-success{
+      border-color:white;
+  }
+   @media only screen and (max-width: 767px)
+   {
+  .form-inline{
+      display: none;
+  }
+       .search form1{
+           display: block;
+           margin-bottom:100px;
+           position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+       }
+       
+       .form1{
+           margin-top:0;
+           margin-bottom: 20px;
+         margin-left: 10px;
+           display: inline-flex;
+           align-items: center;
+           width:100%;
+           
+       }
+       .btn1{
+      width: 20%;
+           float: right;
+           
+           
+  }
+       .mb-2, .my-2{
+           margin-top: 0px !Important;
+       }
+  }
+     
+  .card-img-top {
+      /*height: 11vw;*/
+      object-fit: cover;
+  }
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+      .card-img-top {
+          height: 19vw;
+      }
+    }
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+      .card-img-top {
+          height: 16vw;
+      }
+    }
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      .card-img-top {
+          height: 16vw;
+      }
+    }
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 992px) {
+      .card-img-top {
+          height: 16vw;
+      }
+    }
+  footer{
+      background-color: darkgreen;
+      color: whitesmoke;
+  }
+  
+  footer ul li a{
+      list-style: none;
+      color: mediumpurple;
+  }
+  .text-align{
+      text-align: center;
+  }
+  
