@@ -3,21 +3,7 @@
   .btn-primary{
       background-color: darkgreen;
   }
-  .modal-header{
-      background-color: darkgreen;
-      color: aliceblue;
-  }
-  .modal-footer btn a{
-      text-decoration: none;
-      color: aliceblue;
-  }
-  
-  .form1{
-           display: none;
-       }
-  .btn1 button{
-      display: none;
-  }
+
   
   
     .jumbotron{
@@ -32,10 +18,7 @@
       display: inline-flex;
     
   }
-  .modal fade{
-      margin-top: 100px;
-  }
-  
+   
   .carousel slide{
       display: block;
       
@@ -47,6 +30,10 @@
        position: -webkit-sticky; /* Safari */
       
   }
+  .bottom-nav a{
+  font-size: x-small;    
+  }
+
   /* Modify the backgorund color */ 
   
   .navbar-custom { 
@@ -57,32 +44,8 @@
   }
    @media only screen and (max-width: 767px)
    {
-  .form-inline{
-      display: none;
-  }
-       .search form1{
-           display: block;
-           margin-bottom:100px;
-           position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-       }
-       
-       .form1{
-           margin-top:0;
-           margin-bottom: 20px;
-         margin-left: 10px;
-           display: inline-flex;
-           align-items: center;
-           width:100%;
-           
-       }
-       .btn1{
-      width: 20%;
-           float: right;
-           
-           
-  }
+
+  
        .mb-2, .my-2{
            margin-top: 0px !Important;
        }
