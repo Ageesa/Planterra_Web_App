@@ -92,7 +92,6 @@
  
   .bottom-nav i{
       color:darkolivegreen;
-      font-size: xx-large;
   }
   .bottom-nav a{
    padding: 0;
@@ -101,6 +100,9 @@
       font-size: x-small;
       color: darkolivegreen;
   }
+.bottom-nav i .fa{
+  size: small;
+}
 
   /************************************************************/
 
