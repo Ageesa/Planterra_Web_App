@@ -1,3 +1,24 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+margin-bottom: 0.5rem;
+font-family: 'Bellefair', sans-serif;
+font-weight: 500;
+line-height: 1.2;
+color: inherit;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Top nav bar icons style */
+.brand{
+  font-family: 'Bellefair', serif;
+  color:#198754;
+}
+
+.container-fluid a i{
+  border:none;
+}
+
 
 /* The sidepanel menu */
 .sidepanel {
@@ -46,27 +67,32 @@
   }
   
   .burgermenu:hover {
-    background-color: darkgreen;
+    background-color:#198754;
   }
   /****************************/  
  
  
  .btn-primary{
-      background-color: darkgreen;
+      background-color:#198754;
+      font-size: small;
+      border-radius: 0;
+      border:none;
+
   }
 
   
   
     .jumbotron{
-             background-color:beige;
+             background-color: lavender;
               color: saddlebrown;
               padding:10px !Important;
            
   }
   .jumbotron button{
-      background-color: darkgreen;
-      border-radius: 10px;
+      background-color:#198754;
+      border-radius: 0;
       display: inline-flex;
+      border: none;
     
   }
    
@@ -84,21 +110,22 @@
    /************************************************************/
   /**bottom-nav**/
 .bottom-nav{
-    background-color: rgb(222, 222, 238);
+    background-color: white;
     padding-top: 2%;
     padding-bottom: 0;
     position: fixed;
   }
  
   .bottom-nav i{
-      color:darkolivegreen;
+      color:#198754;
   }
   .bottom-nav a{
    padding: 0;
 }
   .bottom-nav h6{
+    font-family: 'Raleway', sans-serif;
       font-size: x-small;
-      color: darkolivegreen;
+      color: #198754;
   }
 .bottom-nav i .fa{
   size: small;
@@ -109,7 +136,7 @@
   /* Modify the backgorund color */ 
   
   .navbar-custom { 
-      background-color: darkgreen; 
+      background-color:#198754; 
   } 
   .btn-outline-success{
       border-color:white;
@@ -152,8 +179,9 @@
       }
     }
   footer{
-      background-color: darkgreen;
-      color: whitesmoke;
+      background-color:lavender;
+      color: black;
+      padding-bottom: 100px;
   }
   
   footer ul li a{
