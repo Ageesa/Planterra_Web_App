@@ -26,3 +26,10 @@ function openNav() {
     $(this).fadeTo("fast", 1); 
 
   }
+
+  $.get("#carouselExampleSlidesOnly", function (data) {
+               $("#carousel").html(data);
+               setTimeout(function(){ // just being safe
+                   $('.carousel').carousel();
+               },10);
+});
