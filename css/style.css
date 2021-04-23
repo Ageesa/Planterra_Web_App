@@ -15,6 +15,18 @@ p{
   color:#198754;
 }
 
+.bg-custom{
+  background-color:lavender;
+}
+.nav-pills .nav-link.active{
+  color: #fff;
+  background-color:#198754; ;
+}
+
+.card-text{
+  min-height: 70px;
+}
+
 .container-fluid a i{
   border:none;
 }
@@ -458,3 +470,15 @@ textarea {
     min-height: 1000px;
   }
 /*----------------------------------------<<Community>>---------------------------------------------------*/
+.flex-column1{
+  max-width: 260px;
+}
+
+img {
+  margin: 5px;
+}
+
+.scale {
+  transform: scaleY(1.05);
+  padding-top: 5px; 
+}
