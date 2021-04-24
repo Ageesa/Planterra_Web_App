@@ -14,7 +14,9 @@ p{
   font-family: 'Bellefair', serif;
   color:#198754;
 }
-
+.card{
+border: 1px solid rgba(165, 165, 165, 0.125);
+}
 .bg-custom{
   background-color:lavender;
 }
@@ -474,9 +476,6 @@ textarea {
   max-width: 260px;
 }
 
-img {
-  margin: 5px;
-}
 
 .scale {
   transform: scaleY(1.05);
