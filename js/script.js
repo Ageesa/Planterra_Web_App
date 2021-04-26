@@ -5,7 +5,7 @@ function start(){
 
   $.get("#carouselExampleSlidesOnly", function (data) {
     $("#carousel").html(data);
-    setTimeout(function(){ // just being safe
+    setTimeout(function(){ 
         $('.carousel').carousel();
     },0
     );
@@ -15,7 +15,7 @@ function openNav() {
     document.getElementById("mySidepanel").style.width = "250px";
   }
   
-  /* Set the width of the sidebar to 0 (hide it) */
+  /* Burgermenu */
   function closeNav() {
     document.getElementById("mySidepanel").style.width = "0";
   }
@@ -96,3 +96,11 @@ var loadFile = function(event) {
 ScrollReveal().reveal('.reveal1', { delay: 100 });
 ScrollReveal().reveal('.reveal2', { delay: 1000 });
 ScrollReveal().reveal('.reveal3', { delay: 1000 });
+
+
+/*-------------------------------<<<<<<<<<<<<<<<<<Services>>>>>>>>>>>>>>>>>>-------------------------------------*/
+
+$(function() {
+    $('#dp').datepicker();
+  });
+  

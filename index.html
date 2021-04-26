@@ -58,30 +58,49 @@
           <h1 class="brand">Planterra</h1>
         </a>
         <form class="d-flex">
-          <input type="text" placeholder="Search.." name="search"><i class="fa fa-search btn btn-outline-success"></i>
+          <i class="fa fa-search btn btn-outline-success" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" ></i>
             <a href="modules/cart.html"><i class="fa fa-shopping-cart btn btn-outline-success"></i></a>
         </form>
       </div>
     </nav>
-  </div>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Type your search below</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="action_page.php">
+          <input type="text" placeholder="Type your search here..." name="search" class="searchfield mb-3 mt-3">
+          <button type="button" class="btn btn-primary searchbtn">Search</button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 <div style="margin-bottom: 8%;">
   <div id="btmnav" class="desktop-show-menu position-fixed bottom-nav w-100" >
     <nav class="nav nav-pills nav-justified">
-      <a class="nav-link" href="home.html"><i class="fas fa-home"></i>
+      <a class="nav-link" href="home.html"></i>
         <h6>Home</h6>
       </a>
-      <a class="nav-link" href="store.html"><i class="fas fa-store"></i>
-        <h6>Shop</h6>
+      <a class="nav-link" href="store.html"></i>
+        <h6>Marketplace</h6>
       </a>
-      <a class="nav-link" href="care.html"><i class="fas fa-hand-holding-heart"></i>
-        <h6>Care</h6>
+      <a class="nav-link" href="care.html"></i>
+        <h6>Services</h6>
       </a>
-      <a class="nav-link" href="community.html"><i class="fa fa-users"></i>
-        <h6>Community</h6>
+      <a class="nav-link" href="community.html"></i>
+        <h6>Explore</h6>
       </a>
     </nav>
   </div>
+</div>
 </div>
   <div class="mx-auto" id="content"></div>
 
@@ -245,15 +264,40 @@
         <h6>Home</h6>
       </a>
       <a class="nav-link" href="store.html"><i class="fas fa-store"></i>
-        <h6>Shop</h6>
+        <h6>Marketplace</h6>
       </a>
       <a class="nav-link" href="care.html"><i class="fas fa-hand-holding-heart"></i>
-        <h6>Care</h6>
+        <h6>Services</h6>
       </a>
       <a class="nav-link" href="community.html"><i class="fa fa-users"></i>
-        <h6>Community</h6>
+        <h6>Explore</h6>
       </a>
     </nav>
+     <!-- Modal -->
+     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+          </div>
+          <div class="modal-body">
+
+            <h1>Search</h1>
+            <form class="navbar-form " role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 

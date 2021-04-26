@@ -39,8 +39,17 @@ border: 1px solid rgba(165, 165, 165, 0.125);
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-/* The sidepanel menu */
+/*SEARCH*-------------------------------------------------------------------------------------------*/
+input.searchfield {
+  border-bottom: 2px solid;
+  font-family:'Bellefair', sans-serif;
+  color:#668576;
+  font-size: 30px;
+}
+.searchbtn{
+  float: right;
+}
+/* The sidepanel menu ------------------------------------------------------------------------------*/
 .sidepanel {
     height: 91%; /* Specify a height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -471,6 +480,79 @@ textarea {
     background: #198754;
     min-height: 1000px;
   }
+
+  .schedule{
+    background-color: #198754;
+  }
+  .banner3 {
+    color: #8d97ad;
+    font-weight: 300;
+    max-height: 800px;
+  }
+  
+  .banner3 .banner {
+    position: relative;
+    max-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    display: table;
+  }
+  
+  .banner3 h1,
+  .banner3 h2,
+  .banner3 h3,
+  .banner3 h4,
+  .banner3 h5,
+  .banner3 h6 {
+    color: #3e4555;
+  }
+  
+  .banner3 .font-weight-medium {
+    font-weight: 500;
+  }
+  
+  .banner3 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+  }
+  
+  
+  .banner3 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+  }
+  
+  .banner3 .form-row {
+    margin: 0;
+  }
+  
+  .banner3 label.font-12 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .banner3 .form-control {
+    color: #8d97ad;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+  
+  .banner3 .date label {
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  .banner3 .font-14 {
+    font-size: 14px;
+  }
+  
+  .banner3 .text-inverse {
+    color: #3e4555 !important;
+  }
+  
 /*----------------------------------------<<Community>>---------------------------------------------------*/
 .flex-column1{
   max-width: 260px;
@@ -491,10 +573,18 @@ textarea {
   }
 }
 @media only screen and (min-width: 767px) {
+  .bottom-nav h6{
+    font-size:medium;
+    font-weight: bold;
+  }
   .desktop-show-menu {
     display: block;
+    background-color: #fff;
+    
   }
   .mobile-show-menu {
     display: none;
   }
 }
+
+
