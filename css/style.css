@@ -9,6 +9,16 @@ p{
   font-family: 'Raleway', sans-serif;
 }
 
+.filterproducts button{
+  background-color: white;
+  border: 1px solid #198754;
+  margin: 2px 2px;
+}
+.filterproducts button a{
+ text-decoration: none;
+ color:  #198754;
+}
+
 /* Top nav bar icons style */
 .brand{
   font-family: 'Bellefair', serif;
@@ -571,6 +581,9 @@ textarea {
   .mobile-show-menu {
     display: block;
   }
+  .margin{
+    margin-top: 100px;
+  }
 }
 @media only screen and (min-width: 767px) {
   .bottom-nav h6{
@@ -584,6 +597,9 @@ textarea {
   }
   .mobile-show-menu {
     display: none;
+  }
+  .margin{
+    margin-top: 160px;
   }
 }
 .sticky {
