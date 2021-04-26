@@ -2,6 +2,7 @@ $(window).on("load", start);
 
 function start(){
   $("#btmnav a:first").click()
+  $("#a_btmnav a:first").click()
 
   $.get("#carouselExampleSlidesOnly", function (data) {
     $("#carousel").html(data);
@@ -22,7 +23,18 @@ function openNav() {
 
 
   $(document).on("click", "#btmnav a[href]", nav);
+  $(document).on("click", "#a_btmnav a[href]", nav_m);
+  function nav_m(e){
 
+    e.preventDefault();
+
+    var href = $(this).attr("href");
+    $("#content").load("modules/" + href);
+
+    $("#a_btmnav a").fadeTo("fast", 0.7);
+    $(this).fadeTo("fast", 1); 
+    
+  } 
   function nav(e){
 
     e.preventDefault();
@@ -32,7 +44,7 @@ function openNav() {
 
     $("#btmnav a").fadeTo("fast", 0.7);
     $(this).fadeTo("fast", 1); 
-
+    
   }
 
   (function ($) {

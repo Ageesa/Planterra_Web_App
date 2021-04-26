@@ -51,6 +51,8 @@
       <a href="#">Help</a>
       <a href="#">About Us</a>
     </div>
+    <div id="navbar_n" style="margin-bottom: 8%;overflow: hidden;z-index: 1; background-color: #fff;">
+
     <nav class="navbar navbar-light">
       <div class="container-fluid">
         <button class="btn btn-outline-success burgermenu" onclick="openNav()"><i class="fa fa-bars"></i></i></button>
@@ -63,7 +65,23 @@
         </form>
       </div>
     </nav>
-
+    <div id="btmnav" class="desktop-show-menu position-fixed bottom-nav w-100" style="padding-bottom: 2%;">
+      <nav class="nav nav-pills nav-justified">
+        <a class="nav-link" href="home.html"></i>
+          <h6>Home</h6>
+        </a>
+        <a class="nav-link" href="store.html"></i>
+          <h6>Marketplace</h6>
+        </a>
+        <a class="nav-link" href="care.html"></i>
+          <h6>Services</h6>
+        </a>
+        <a class="nav-link" href="community.html"></i>
+          <h6>Explore</h6>
+        </a>
+      </nav>
+    </div>
+    </div>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog  modal-fullscreen">
@@ -83,24 +101,8 @@
     </div>
   </div>
 </div>
-<div style="margin-bottom: 8%;">
-  <div id="btmnav" class="desktop-show-menu position-fixed bottom-nav w-100" >
-    <nav class="nav nav-pills nav-justified">
-      <a class="nav-link" href="home.html"></i>
-        <h6>Home</h6>
-      </a>
-      <a class="nav-link" href="store.html"></i>
-        <h6>Marketplace</h6>
-      </a>
-      <a class="nav-link" href="care.html"></i>
-        <h6>Services</h6>
-      </a>
-      <a class="nav-link" href="community.html"></i>
-        <h6>Explore</h6>
-      </a>
-    </nav>
-  </div>
-</div>
+  
+
 </div>
   <div class="mx-auto" id="content"></div>
 
@@ -258,7 +260,7 @@
   </footer>
   <!-- Footer -->
   <!--Bottom Nav for mobile screen-->
-  <div id="btmnav" class="mobile-show-menu position-fixed bottom-nav w-100" style="bottom: 0%;">
+  <div id="a_btmnav" class="mobile-show-menu position-fixed bottom-nav w-100" style="bottom: 0%;">
     <nav class="nav nav-pills nav-justified">
       <a class="nav-link" href="home.html"><i class="fas fa-home"></i>
         <h6>Home</h6>
@@ -299,6 +301,20 @@
       </div>
     </div>
   </div>
+  <script>
+    window.onscroll = function() {myFunction()};
+    var navbar = document.getElementById("navbar_n");
+    console.log("dfs", navbar)
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+  </script>
 </body>
 
 </html>
